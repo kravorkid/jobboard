@@ -1,0 +1,33 @@
+{
+  "env": {
+      "es6": true,
+      "node": true
+  },
+  "extends": [
+      "standard",
+      "eslint:recommended"
+  ],
+  "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+  },
+  "rules": {
+    "generator-star-spacing": "off",
+    "arrow-parens": "off",
+    "one-var": "off",
+    "prefer-promise-reject-errors": "off",
+    "import/first": "off",
+    "import/named": "error",
+    "import/namespace": "error",
+    "import/default": "error",
+    "import/export": "error",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "import/no-extraneous-dependencies": "off",
+    "space-before-function-paren": "off"
+  }
+}
