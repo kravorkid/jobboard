@@ -3,7 +3,7 @@
     <div class="row justify-center">
       <div class="col-12 col-md-10 col-lg-7">
         <q-chip icon="keyboard_arrow_left" label="Back to list" clickable @click="$router.push('/')"/>
-        <ErrorCard :error="error" />
+        <ErrorCard v-if="error" />
         <h1 class="text-h5 text-bold">{{job.title}}</h1>
         <div v-html="job.description"></div>
       </div>

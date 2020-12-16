@@ -5,7 +5,7 @@
         <SignatureCard />
       </div>
       <div class="col-12 col-md-8 col-lg-5">
-        <ErrorCard :error="error" />
+        <ErrorCard v-if="error" />
         <JobCard v-for="job in jobs" :key="job.id" :job="job" />
       </div>
     </div>

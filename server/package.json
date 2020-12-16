@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "@koa/cors": "2",
-    "@koa/multer": "^2.0.2",
     "@koa/router": "^8.0.8",
     "axios": "^0.21.0",
     "dotenv": "^8.2.0",
