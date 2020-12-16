@@ -29,7 +29,7 @@ export default {
   methods: {
     async getJob () {
       this.$q.loading.show()
-      const res = await this.$axios.get(`http://localhost:5000/jobs/${this.id}`)
+      const res = await this.$axios.get(`/jobs/${this.id}`)
         .catch(e => {
           this.error = true
           this.$q.loading.hide()
