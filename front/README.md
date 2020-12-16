@@ -1,4 +1,4 @@
-# Quasar App (github-job-board)
+# Simple Job board (github-job-board)
 
 Simple job board
 
